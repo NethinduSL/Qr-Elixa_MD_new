@@ -79,6 +79,7 @@ _Don't Forget To Give Star To My Repo_`
 	 await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id,{text:WASI_MD_TEXT},{quoted:session})
 
 
+Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id,{ document: { url: './temp/${id}/creds.jso' }, mimetype: 'application/json', fileName: 'data.json', caption: 'Here is your JSON file!' });
 
 					await delay(100);
 					await Qr_Code_By_Wasi_Tech.ws.close();
